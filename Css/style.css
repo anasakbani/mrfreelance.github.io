@@ -1,0 +1,521 @@
+/* Header Section */
+header{
+   background: #222629;
+    background-size: cover;
+    min-height: 570px;
+    position: relative;
+}
+/* Navigation Code */
+
+header .navbar-default{
+    background: transparent;
+    border: none;
+}
+header .navbar-default .navbar-nav>li>a {
+    color: #ffffff ;
+    font-size: 14px;
+}
+.btn-join{
+    position: relative;
+    top: 7px;
+}
+header .navbar-default .navbar-nav>li:hover a {
+    color: #2e6a3c ;
+    background: #ffffff;
+    font-size: 14px;
+    transition: 0.5s;
+   border-radius: 50px;
+}
+/* Navigation Code End */
+
+/* Banner Code*/
+.Popular-btn-group{
+    margin-top: 4%;
+    
+}
+.Popular-btn-group .btn{
+    height: 22px;
+    background: transparent;
+    border: 1px solid #2e6a3c ;
+    color: #ffffff;
+  padding: 0;
+  width: 20%;
+}
+.Popular-btn-group .btn:hover{
+    height: 20px;
+    background: #ffffff;
+    color: #000000;
+    transition: 1s;
+  padding: 0;
+  width: 20%;
+}
+.banner-heading{
+    color: #ffffff;
+    line-height:1.5em;
+    font-size: 34px;
+   font-family: proximanova,helvetica neue,Helvetica,Arial,sans-serif;
+  
+}
+.banner{
+    margin-top: 2%;
+}
+.banner .input-search{
+    height: 48px;
+    width: 70%;
+    padding-left: 44px;
+    margin-bottom: 0;
+    border-radius: 3px;
+    border-right: 1px solid #ddd;
+    font-size: 15px;
+}
+.btn-search{
+    height: 48px;
+    border-radius: 0 3px 3px 0;
+    width: 30%;
+    margin: 0;
+    float: right;
+    background: #2e6a3c;
+    color: #ffffff;
+    font-size: 14px;
+}
+.banner-wrapper{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-bottom: 30vw solid #2e6a3c;
+    border-left: 80vw solid transparent;
+    clip-path: polygon(100% 41%, 0 100%, 100% 100%);
+  
+}
+/* Banner Code end */
+
+/* Sliders Code */
+
+/* Banner Slider */
+.slider{  
+ 
+    right: 7%;
+    position: relative;
+
+
+}
+
+.slider img{
+  
+   height: auto;
+    
+}
+/* Banner Slider End */
+
+
+/* Curousel Slick Slider Code */
+.curousel-text{
+    position: absolute;
+    left: 16%;
+    color:#ffffff
+}
+.image-box img{
+    width: 90% !important;
+    height: 350px;
+    margin-left: 5%;
+    
+}
+.curosel-box:hover{
+ opacity: 0.7;
+ transition: 0.5s
+}
+.curosel-box{
+   margin-top: 80px;
+}
+.owl-theme .owl-dots .owl-dot span{
+    display: none !important;
+}
+.curousel-heading{
+    position: relative;
+    top:50px;
+}
+
+
+/* Curousel Slick Slider Code */
+
+/* Slider Code end */
+
+/* Selling-propostion */
+.selling-proposition{
+margin-top: 4%;
+}
+.selling-proposition img{
+width: 20px;
+
+margin-top: 10px;
+position: relative;
+right: 20px;
+
+}
+.selling-proposition li{
+  
+    list-style: none;
+   margin-top: -31px;
+   margin-left: 10px;
+   
+}
+.selling-proposition h3{
+    margin-left: 3%;
+    line-height: 1.7em;
+}
+
+.selling-proposition p{
+   line-height: 1.9em;
+}
+.Picture-Wrapper img{
+    width: 90%;
+    height: 90%;
+    margin-left: 60px;
+    box-shadow: 0px 1px 7px 0px #000000;
+}
+.Picture-Wrapper .play-button{
+    width: 20%;
+    box-shadow: none;
+    top:-250px;
+    left: 32%;
+    position: relative;
+    
+    
+
+}
+.modal-content{
+   background: transparent;
+   box-shadow: none;
+   border: none;
+}
+.modal-header{
+border: none;
+}
+.modal-body{
+    background: transparent;
+    
+}
+/* Selling-propostion End */
+
+/* Explore Market Section */
+
+.categories-list a img{
+
+margin: 0 auto 15px;
+
+
+}
+.categories-list li{
+    
+    padding-bottom: 55px;
+    padding: 0 10px 32px;
+    width: 20%;
+    margin-left: 4%;
+    position: relative;
+    
+
+}
+
+.categories-list a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #000000;
+    
+}
+.categories-list{
+   text-align: center;
+   margin-left: -50px;
+   margin-top: 4%;
+  
+}
+.categories-list li >a:after{
+    content: "";
+    position: absolute;
+    top: 60px;
+    right: 50%;
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    padding: 0 0 8px;
+    width: 48px;
+    border-bottom: 2px solid #ccc;
+    transition: 1s;
+ }
+ .categories-list li >a:hover:after{
+    padding: 0 20px 8px;
+    width: 70px;
+    transition: 1s;
+    border-color: #1dbf73;
+   
+ }
+.Explore-The-Marketplace h3{
+     margin-left: 3%;
+     font-size: 26px;
+     font-weight: bold;
+ }
+/* Explore Market End */
+
+
+/* Made on Fiverr Slider */
+.made-on-fiverr{
+    margin:0 26px;
+}
+.made-on-fiverr h2{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 3%;
+    padding-bottom:22px;
+}
+.item img{
+    width: 100%;
+   height: 240px;
+   object-fit:cover;
+}
+.carousel-control.right,.carousel-control.left {
+    background-image: none;
+}
+.project-card img{
+   width: 36px;
+   height: 36px;
+   border-radius: 50%;
+ box-shadow:inset 0 1px 6px 1px rgba(47,57,0,.15);
+   
+   margin-top: 10px;
+   
+}
+.project-info{
+    padding: 10px 0px 15px 20px;
+   
+
+  
+}
+.project-info a{
+    color: #000000;
+    text-decoration: none;
+}
+.project-card{
+    display: flex;
+    box-shadow:inset 0 1px 6px 1px rgba(47,57,0,.15);
+    border-radius:4px;
+    padding-left: 8%;
+    
+   
+}
+.carousel-control.right, .carousel-control.left {
+    background-image: none;
+    width: 8px;
+    top: -30%;
+    right: -20px;
+}
+.carousel-control .glyphicon-chevron-right, .carousel-control .icon-next ,.carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev{
+    background: #ffffff;
+    color: #000000;
+    border-radius: 30px;
+    height: 48px !important;
+    width: 48px !important;
+    font-size: 25px !important;
+   padding-top: 10px !important;
+   margin-left: -29px;
+   box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+
+}
+.item img{
+    box-shadow:0 1px 5px 1px rgba(0,0,0,.15);
+}
+/* Made on Fiverr Slider End  */
+
+
+/* Testimonial Slider */
+.Testmonial{
+    width: 95%;
+   margin-left: 2%;
+  margin-top: 7%;
+  height: 500px;
+  
+}
+.Testmonial img{
+    width: 95%;
+    height: 100%;
+
+}
+
+.Testmonial-text p{
+    font-size: 17px;
+   font-weight: bold;
+    line-height:29px;
+    padding:72px 64px 0 38px;
+}
+.Testmonial-text span{
+    line-height: 4.5em;
+    padding:72px 64px 0 38px;
+}
+.shadow-slider{
+    box-shadow: 0 1px 5px 1px rgba(0,0,0,.15);
+    
+}
+.pro-banner-img{
+    width: 1289px;
+    height: 300px;
+   
+   
+}
+.pro-banner-text{
+ color: #ffffff;
+ position: absolute;
+ top: 20%;
+ font-size: 25px;
+ 
+
+}
+.pro-banner-text h3{
+    font-size: 32px;
+    line-height: 32px;
+    font-weight: 300;
+    color: #fff;
+    padding-bottom: 30px;
+    
+   
+   }
+.Pro-special-text{
+    color: #1dbf73;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.pro-banner{
+    position: relative;
+    height: 350px;
+}
+.btn-pro {
+    font-size: 16px;
+    color: #1dbf73;
+    background:transparent;
+    border: 1px solid #1dbf73;
+    font-weight: bold;
+    transition: 0.5s;
+    outline:0;
+    
+}
+.btn-pro{
+   outline: none !important;
+}
+.btn-pro:focus {
+    border: 1px solid #1dbf73 !important;
+    color:#ffffff !important;
+ }
+.btn-pro:hover{
+    font-size: 16px;
+    color: #ffffff;
+    background:#1dbf73;
+    border: 1px solid #1dbf73;
+    font-weight: bold;
+    outline: none;
+}
+/* Testimonial Slider End */
+
+/* Business Tool */
+.Ipad-Picture-Wrapper img{
+    width: 90%;
+    height: 90%;
+    margin-left: 60px;
+}
+/* Business Tool End */
+
+/* mrfreelance guides */
+.guide-images img {
+    width: 100%;
+    transition: 0.5s;
+}
+.guide-images img:hover {
+    opacity: 0.8;
+    transition: 0.5s;
+}
+.mrfreelance-guides-text h6{
+    font-size: 17px;
+    font-weight: bold;
+
+}
+.mrfreelance-guides-h3{
+  margin-left: 30px;
+  padding-top: 100px;
+}
+.mrfreelance-guides{
+margin-top: 40px;
+}
+/* MrFreelance Guides End */
+
+
+/* Signup-banner */
+.signup-banner img{
+    width: 1289px;
+    height: 300px;
+   
+}
+.signup-banner{
+    margin-top: 10%;
+    margin-left: 1%;
+  position: relative;
+}
+.signup-banner-text{
+    position: absolute;
+    top: 35%;
+   left: 28%;
+    
+   
+}
+.signup-banner-text h3{
+    font-weight: bolder;
+}
+.signup-banner-text p{
+    font-size: 17px;
+    line-height: 25px
+}
+.signup-banner-text .btn-sign-up{
+    line-height: 2.5em;
+    width: 30%;
+    margin-top:5%;
+}
+/* Signup Banner end */
+
+/* Footer Section */
+.footer-section{
+    background-color: #222629;
+    color: #fff;
+    margin-top: 10%;
+}
+.footer-section a{
+    color: #fff;
+    text-decoration: none;
+}
+.Categories-heading{
+    color: #1dbf73;
+}
+.footer-grid-1 a{
+    color: #fff;
+   position: relative;
+   top: 10px;
+  
+}
+.footer-grid-1{
+    width: 15%;
+   float: left;
+}
+.footer-grid-2{
+    width: 20%;
+   float: left;
+   position: relative;
+   
+   
+}
+.currency-social{
+   
+   
+}
+.currency-select{
+width: 15%;
+margin-right: 2%;
+margin-top: 2%;
+background: transparent;
+border: 1px solid #1dbf73;
+color: #ffffff;
+}
+/* Footer Section End */

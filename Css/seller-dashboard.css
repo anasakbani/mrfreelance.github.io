@@ -1,0 +1,215 @@
+body{
+    background: #F7F7F7;
+}
+header .navbar-inverse{
+background: #ffffff;
+height: 80px;
+padding-top: 10px;
+border: none;
+border-bottom: 1px solid #e5e5e5;
+
+}
+header .navbar-inverse .navbar-nav>li>a{
+    color: #000000;
+    transition: 0.5s;
+}
+header .navbar-inverse .navbar-nav>li>a:hover{
+    background-color:#1DBF73;
+
+}
+header .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover{
+    background: #1DBF73;
+}
+header .navbar-header .navbar-brand,.navbar-header .navbar-brand:hover{
+    color: #1DBF73;
+}
+.profile-pic{
+    width: 35px;
+    border-radius: 50%;
+}
+header .profile-box{
+position: absolute;
+top: 20px;
+right: 50px;
+cursor: pointer;
+}
+.profile-box .online-status{
+content: "";
+position: absolute;
+height: 10px;
+width: 10px;
+background: #1dbf73;
+right: 0;
+border-radius: 50%;
+
+}
+.profile-performance{
+    background: #ffffff;
+    width: 360px;
+    height: 500px;
+    margin: 13px 0 auto 36px;
+    border: 1px solid #e5e5e5;
+   
+    
+}
+.profile-performance .profile-performance-pic{
+width: 60px;
+border-radius: 50%;
+position: relative;
+left: 120px;
+margin-top: 50px;
+}
+.online-indicator{
+    float: right;
+  position: relative;
+  right:30px;
+  top: 20px;
+  border: 1px solid #1dbf73;
+  border-radius: 10px;
+  color: #1dbf73;
+  padding: 2px 8px;
+  text-transform: capitalize;
+}
+.username-link,.username-link:hover{
+    display: block;
+   color: #000000;
+    margin-left: 110px;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.progresses-wrapper{
+   width: 330px;
+  display: flex;
+   text-align: center;
+   
+   
+  
+   
+}
+.progress-round{
+    margin-left: 15px;
+    margin-top: 20px;
+    border: 1px solid #1DBF73;
+   border-radius: 50%;
+    height: 60px;
+    width: 60px;
+  
+    
+}
+.progress-round span{
+   position: relative;
+   top: 18px;
+   
+}
+.progress-round h6{
+    position: relative;
+    top: 40px;
+   
+}
+.Dashboard-line{
+    width: 320px;
+    position: relative;
+    top:100px;
+    height: 1px;
+    border-bottom: 1px solid #E5E5E5;
+  
+}
+
+.text-wrapper h6{
+  float: left;
+  font-size: 15px;
+}
+.text-wrapper{
+    width: 100%;
+    float: left;
+    margin-top: 13px;
+    
+}
+.text-wrapper .grade{
+    float: right;
+    font-weight: bold;
+}
+.text-wrapper-inbox{
+    float: left;
+    width: 100%;
+    position:absolute;
+    top: 10px;
+    
+}
+.text-wrapper-inbox .grade{
+    
+    float: right;
+    font-weight: bold;
+
+}
+.text-wrapper-inbox h6{
+    float: left;
+    font-size: 15px;
+}
+.Dashboard-right-grid{
+    position: absolute;
+    width: 60%;
+    min-height:230px;
+ 
+   
+}
+.seller-education-wrapper{
+    width: 67%;
+    margin-left: 37px;
+    
+}
+.seller-education-wrapper p{
+    line-height: 2.5em;
+}
+.Dashboard-right-grid{
+    background: #ffffff;
+    position: absolute;
+  margin-left: 29%;
+  margin-top: -33%;
+}
+.heading-education{
+    position: relative;
+    top: -60px;
+}
+.footer-section{
+    background-color: #222629;
+    color: #fff;
+    margin-top: 10%;
+}
+.footer-section a{
+    color: #fff;
+    text-decoration: none;
+}
+.Categories-heading{
+    color: #1dbf73;
+}
+.footer-grid-1 a{
+    color: #fff;
+   position: relative;
+   top: 10px;
+  
+}
+.footer-grid-1{
+    width: 15%;
+   float: left;
+}
+.footer-grid-2{
+    width: 20%;
+   float: left;
+   position: relative;
+   
+   
+}
+.currency-social{
+   
+   
+}
+.currency-select{
+width: 15%;
+margin-right: 2%;
+margin-top: 2%;
+background: transparent;
+border: 1px solid #1dbf73;
+color: #ffffff;
+}

@@ -1,0 +1,63 @@
+/* Signup-banner query */
+@media(max-width:768px){
+.signup-banner-text h3{
+    margin-right: 50% !important;
+}
+.signup-banner-text p{
+    margin-right: 50% !important;
+}
+.signup-banner img{
+    height: 400px;
+}
+.signup-banner .btn-sign-up{
+   position: absolute;
+   top:90%;
+   left: 10%;
+}
+}
+/* Signup-banner query end */
+
+/* Footer Query */
+@media(max-width:768px){
+.footer-grid-2  {
+ position: relative;
+ left: 7%;
+ font-size: 13px;
+}
+}
+/* footer end */
+
+@media(max-width:768px){
+.form-img .men{
+    display: none;
+}
+}
+/* Seller Dashboard */
+@media(max-width:768px){
+.seller-dashboard-nav{
+   position: absolute;
+   width: 100%;
+   z-index: 999;
+   background: #222629;
+}
+header .navbar-inverse .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-toggle{
+    float: left;
+    background: #000000;
+}
+}
+@media(max-width:768px){
+.Dashboard-right-grid{
+    margin-top: 15%;
+    margin-left: 10%;
+}
+}
+/* Footer Mobile screen */
+@media(max-width:768px){
+    .footer-section{
+        margin-top: 600px;
+        
+    }
+}
